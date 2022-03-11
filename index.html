@@ -5,33 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   <title>NFT preview card component</title>
 </head>
 <body>
   <div class="container">
-    <figure class="image-container">
-      <img src="./images/image-equilibrium.jpg" alt="equilibrium image">
-    </figure>
-    <section class="content">
-      <h1>Equilibrium #3429</h1>
-      <p>Our Equilibrium collection promotes balance and calm.</p>
-      <div class="content-stats">
-        <p>0.041 ETH</p>
-        <p>3 days left</p>
-      </div>
-    </section>
-    <div class="separator"></div>
-    <section class="info">
-      <figure class="info-image">
-        <img src="./images/" alt="">
+    <section class="card">
+      <figure class="card--image">
+        <img src="./images/image-equilibrium.jpg" alt="equilibrium image">
       </figure>
-      <p>Creation of <span>Jules Wyvern</span></p>
+      <section class="card--content">
+        <h1>Equilibrium #3429</h1>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <div class="card--content__stats">
+          <p>0.041 ETH</p>
+          <p>3 days left</p>
+        </div>
+      </section>
+      <div class="card--separator"></div>
+      <section class="card--info">
+        <figure class="card--info__image">
+          <img src="./images/image-avatar.png" alt="">
+        </figure>
+        <p>Creation of <span>Jules Wyvern</span></p>
+      </section>
     </section>
+    <div class="attribution"> 
+      Coded by <a href="https://github.com/CamiloBeltran24">@CamiloBeltran24</a>.
+    </div>
   </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">@CamiloBeltran24</a>.
-  </div>
 </body>
 </html>
